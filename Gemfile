@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'simple_form'
 
-
+gem 'will_paginate', '~> 3.1.0'
 gem 'bootstrap-sass'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.0', '>= 5.0.0.1'
