@@ -16,6 +16,11 @@ def update
   else
     redirect_to edit_idea_path(params[:id])
   end
+  def destroy
+  @idea = Idea.find(params[:id])
+  @idea.destroy
+  redirect_to root_path
+end
 end
   private
 
